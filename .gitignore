@@ -1,0 +1,20 @@
+#Ignora pastas de configuração e binários
+.vscode/
+executaveis/
+build/
+bin/
+obj/
+
+#Ignora arquivos binários e objetos em qualquer lugar
+*.o
+*.out
+*.exe
+*.bin
+
+#Não ignora arquivos importantes
+!.gitignore
+!Makefile
+
+#(Opcional) ignora backups do VS Code ou editores
+*~
+*.swp
